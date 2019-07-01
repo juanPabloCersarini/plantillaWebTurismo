@@ -1,0 +1,31 @@
+.social {
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+}
+
+.social ul li a:hover {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #000;
+}

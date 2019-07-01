@@ -1,0 +1,49 @@
+body {
+    background: #000;
+}
+
+.social ul li .icon-facebook {
+    background: #F966e9;
+    color: white;
+}
+
+.social ul li .icon-instagram {
+    background: #F966a0;
+    color: white;
+}
+
+.social ul li .icon-twitter {
+    background: #F97666;
+    color: white;
+}
+
+.social ul li .icon-whatsapp {
+    background: #F9c066;
+    color: white;
+}
+
+.social ul li .icon-mail2 {
+    background: #E9f966;
+    color: white;
+}
+
+.contenido {
+    background: #9ff966;
+    color: black;
+    font-size: 35px;
+}
+
+.accion {
+    background: #843c07;
+    color: white;
+}
+
+.pie {
+    background: #66a0f9;
+    color: black;
+}
+
+.boton {
+    background: #000;
+    color: white;
+}

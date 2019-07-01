@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    max-width: 1260px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1000px 260px;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "cabecera  cabecera" "contenido accion" "pie       pie";
+}
+
+.cabecera {
+    background-image: url("../img/mdq2019.jpg");
+    width: 1260px;
+    height: 709px;
+    text-align: center;
+    grid-column-start: cabecera;
+    grid-column-end: cabecera;
+}
+
+.cabecera .menu {
+    width: 100%;
+    height: 60px;
+    text-align: left;
+    /*   margin: 40px auto;*/
+    background: transparent;
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(194, 208, 237, 1);
+    -moz-box-shadow: 0px 10px 5px 0px rgba(194, 208, 237, 1);
+    box-shadow: 0px 10px 5px 0px rgba(194, 208, 237, 1);
+}
+
+.cabecera .menu ul {
+    list-style: none;
+    position: relative;
+}
+
+.cabecera .menu ul>li {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cabecera .menu ul>li>a {
+    text-decoration: none;
+    display: block;
+}
+
+.contenido p {
+    width: 1000px;
+    height: 300px;
+    display: block;
+    grid-column-start: contenido;
+    grid-column-end: contenido;
+    justify-self: center;
+    align-self: center;
+    font-size: 72px;
+    padding: 5px;
+}
+
+.accion p {
+    width: 260px;
+    height: 300px;
+    display: block;
+    grid-column-start: accion;
+    grid-column-end: accion;
+    justify-items: center;
+    align-items: center;
+    font-size: 35px;
+    padding: 5px;
+}
+
+.pie {
+    margin-top: 0px;
+    width: 1260px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    grid-column-start: pie;
+    grid-column-end: pie;
+    text-align: center;
+    justify-self: stretch;
+    align-self: stretch;
+    font-size: 20px;
+}
+
+.boton {
+    display: inline-block;
+    width: 160px;
+    justify-self: stretch;
+    align-self: stretch;
+    margin: auto;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition: all 300ms;
+}
+
+.accion .boton:hover {
+    transform: translateY(5px);
+    box-shadow: 0px 30px 5px -15px rgba(243, 232, 223, 0.3);
+}
